@@ -1,6 +1,6 @@
 # StockX for Discord
 
-StockX for Discord is a simple, self-hosted Discord bot providing information from StockX about the current value of sneakers.
+StockX for Discord is a simple, self-hosted Discord bot providing information from GOAT and StockX about the current value of sneakers.
 
 ### Example
 
@@ -22,6 +22,7 @@ Follow this [tutorial](https://discordpy.readthedocs.io/en/rewrite/discord.html)
 ### Commands
 
 ```
+!goat SNEAKERNAME
 !stockx SNEAKERNAME
 ```
 
