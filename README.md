@@ -4,7 +4,7 @@ A simple, self-hosted Discord bot providing information from GOAT and StockX abo
 
 ## Example
 
-[Imgur](https://imgur.com/a/acwH5an)
+![Imgur](https://i.imgur.com/xZmz8lz.png)
 
 ## Prerequisites
 
