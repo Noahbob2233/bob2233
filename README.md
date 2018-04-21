@@ -15,7 +15,7 @@ python main.py
 
 ## Built With
 
-* [discord.py]https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
+* [discord.py](https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
 * [Requests](https://github.com/requests/requests) - Python HTTP Requests for Humans™.
 
 ## Authors
