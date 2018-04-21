@@ -37,4 +37,4 @@ Follow [this tutorial](https://discordpy.readthedocs.io/en/rewrite/discord.html)
 
 ## License
 
-This project is licensed under the MIT License. See LICENSE.md for more details.
+This project is licensed under the MIT License. See `LICENSE.md` for more details.
