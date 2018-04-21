@@ -4,7 +4,7 @@ A simple, self-hosted Discord bot providing information from GOAT and StockX abo
 
 ## Prerequisites
 
-* [Python 3](https://www.python.org/downloads/) ([discord.py](https://github.com/tartley/colorama), [Requests](https://github.com/requests/requests))
+* [Python 3](https://www.python.org/downloads/) ([discord.py](https://github.com/Rapptz/discord.py), [Requests](https://github.com/requests/requests))
 
 ## Installation and Setup
 
@@ -15,7 +15,7 @@ python main.py
 
 ## Built With
 
-* [discord.py](https://github.com/tartley/colorama) - An API wrapper for Discord written in Python.
+* [discord.py]https://github.com/Rapptz/discord.py) - An API wrapper for Discord written in Python.
 * [Requests](https://github.com/requests/requests) - Python HTTP Requests for Humans™.
 
 ## Authors
