@@ -86,12 +86,16 @@ async def on_message(message):
         last_sale = output['hits'][0]['last_sale']
         lowest_ask = output['hits'][0]['lowest_ask']
         name = output['hits'][0]['name']
+        release_date = output['hits'][0]['release_date']
+        retail_price = output['hits'][0]['searchable_traits']['Retail Price']
         sales_last_72 = output['hits'][0]['sales_last_72']
         url = 'https://stockx.com/' + output['hits'][0]['url']
 
         embed = discord.Embed(color=4500277)
         embed.set_thumbnail(url=image)
         embed.add_field(name="Product Name", value="[{}]({})".format(name, url), inline=False)
+        embed.add_field(name="Release Date", value="{}".format(release_date), inline=True)
+        embed.add_field(name="Retail Price", value="${}".format(retail_price), inline=True)
         embed.add_field(name="Last Sale", value="${}".format(last_sale), inline=True)
         embed.add_field(name="Highest Bid", value="${}".format(highest_bid), inline=True)
         embed.add_field(name="Lowest Ask", value="${}".format(lowest_ask), inline=True)
